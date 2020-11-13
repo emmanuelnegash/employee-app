@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.2.0",
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.13",
     "react": "^17.0.1",
