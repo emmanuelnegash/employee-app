@@ -11,7 +11,7 @@ let Crud = require('../model-db/crud.model');
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false/crud_mern',
+mongoose.connect('mongodb+srv://dbuser:rkwYTH3C36pzVnT@cluster0.pelky.mongodb.net/test',
     { useNewUrlParser: true });
 const connection = mongoose.connection;
 connection.once('open', () => {
